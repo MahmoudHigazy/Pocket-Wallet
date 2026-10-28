@@ -1,0 +1,31 @@
+node_modules/
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.log
+.DS_Store
+
+# env / secrets
+.env
+.env*.local
+GoogleService-Info.plist
+google-services.json
+functions/.env*
+functions/.runtimeconfig.json
+serviceAccountKey*.json
+
+# native / build artifacts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.tsbuildinfo
+coverage/
+.firebase/
+firebase-debug.log
+
+# Claude Code local settings
+.claude/settings.local.json
